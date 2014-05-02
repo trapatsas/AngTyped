@@ -55,7 +55,6 @@
     <Content Include="scripts\typings\angularjs\angular-sanitize.d.ts" />
     <Content Include="scripts\typings\angularjs\angular-scenario.d.ts" />
     <Content Include="scripts\typings\angularjs\angular.d.ts" />
-    <Content Include="scripts\typings\jasmine\jasmine-1.3.d.ts" />
     <Content Include="scripts\typings\jasmine\jasmine.d.ts" />
     <Content Include="scripts\typings\jquery\jquery.d.ts" />
     <Content Include="web.config" />
@@ -76,7 +75,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\JasmineController.cs" />
+    <Folder Include="Controllers\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
