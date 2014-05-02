@@ -18,19 +18,65 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app.css" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\jasmine\jasmine.css" />
+    <Content Include="Content\jasmine\jasmine_favicon.png" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="index.html" />
+    <Content Include="scripts\angular-mocks.js" />
+    <Content Include="scripts\angular.js" />
+    <Content Include="scripts\angular.min.js" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <None Include="scripts\jquery-1.9.0.intellisense.js" />
+    <Content Include="scripts\bootstrap.js" />
+    <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="scripts\jasmine-samples\Player.js" />
+    <Content Include="scripts\jasmine-samples\PlayerSpec.js" />
+    <Content Include="scripts\jasmine-samples\Song.js" />
+    <Content Include="scripts\jasmine-samples\SpecHelper.js" />
+    <Content Include="scripts\jasmine\boot.js" />
+    <Content Include="scripts\jasmine\console.js" />
+    <Content Include="scripts\jasmine\jasmine-html.js" />
+    <Content Include="scripts\jasmine\jasmine.js" />
+    <Content Include="scripts\jquery-1.9.0.js" />
+    <Content Include="scripts\jquery-1.9.0.min.js" />
+    <Content Include="scripts\typings\angularjs\angular-animate.d.ts" />
+    <Content Include="scripts\typings\angularjs\angular-cookies.d.ts" />
+    <Content Include="scripts\typings\angularjs\angular-mocks.d.ts" />
+    <Content Include="scripts\typings\angularjs\angular-resource.d.ts" />
+    <Content Include="scripts\typings\angularjs\angular-route.d.ts" />
+    <Content Include="scripts\typings\angularjs\angular-sanitize.d.ts" />
+    <Content Include="scripts\typings\angularjs\angular-scenario.d.ts" />
+    <Content Include="scripts\typings\angularjs\angular.d.ts" />
+    <Content Include="scripts\typings\jasmine\jasmine-1.3.d.ts" />
+    <Content Include="scripts\typings\jasmine\jasmine.d.ts" />
+    <Content Include="scripts\typings\jquery\jquery.d.ts" />
     <Content Include="web.config" />
+    <Content Include="scripts\jquery-1.9.0.min.map" />
+    <Content Include="Views\Jasmine\SpecRunner.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app.ts" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="scripts\angular.min.js.map" />
+    <Content Include="packages.config" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
     <None Include="web.Release.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\JasmineController.cs" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
